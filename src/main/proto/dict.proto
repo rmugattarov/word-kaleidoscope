@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package ru_mugattarov_proto;
+
+option java_package = "ru.mugattarov.proto";
+
+message Dict {
+  repeated Noun nouns = 1;
+}
+
+message Noun {
+  string noun = 1;
+  string def = 2;
+}

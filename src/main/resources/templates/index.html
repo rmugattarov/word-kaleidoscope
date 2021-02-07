@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Word Kaleidoscope</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style>
+    .noun {font-size: 300%}
+    .def {font-style: italic;text-indent: 5%;}
+    </style>
+</head>
+<body>
+<table style="width:30%;margin:auto">
+    <tr>
+        <td class="noun" th:text="${word_1}"/>
+    </tr>
+    <tr>
+        <td class="def" th:text="${def_1}"/>
+    </tr>
+    <tr>
+        <td class="noun" th:text="${word_2}"/>
+    </tr>
+    <tr>
+        <td class="def" th:text="${def_2}"/>
+    </tr>
+    <tr>
+        <td class="noun" th:text="${word_3}"/>
+    </tr>
+    <tr>
+        <td class="def" th:text="${def_3}"/>
+    </tr>
+    <tr>
+        <td class="noun" th:text="${word_4}"/>
+    </tr>
+    <tr>
+        <td class="def" th:text="${def_4}"/>
+    </tr>
+    <tr>
+        <td class="noun" th:text="${word_5}"/>
+    </tr>
+    <tr>
+        <td class="def" th:text="${def_5}"/>
+    </tr>
+</table>
+</body>
+</html>
